@@ -1,5 +1,4 @@
 console.log('this is loaded');
-require('dotenv').config();
 
 exports.database = {
     host: "localhost",
