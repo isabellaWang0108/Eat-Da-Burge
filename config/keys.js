@@ -6,5 +6,5 @@ exports.database = {
     user: "root",
     database: "burgerDB",
     port: 3306,
-    password:process.env.SQLKey
+    password:"Ganbei2233"
 };
