@@ -1,10 +1,10 @@
 console.log('this is loaded');
-require("dotenv").config();
+require('dotenv').config();
 
 exports.database = {
     host: "localhost",
     user: "root",
-    password: "Ganbei2233",
     database: "burgerDB",
-    port: 3306
+    port: 3306,
+    password:process.env.SQLKey
 };
