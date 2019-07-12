@@ -5,5 +5,5 @@ exports.database = {
     user: "root",
     database: "burgerDB",
     port: 3306,
-    password:"Ganbei2233"
+    password:""
 };
