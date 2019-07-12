@@ -3,7 +3,8 @@ var keys = require("./keys.js");
 
 
 var connection = mysql.createConnection(
-    keys.database
+    // keys.database
+    process.env.JAWSDB_URL
 );
 
 
